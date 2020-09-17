@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+ <html>
+
+   <head>
+     <meta charset="utf-8" />
+     <link rel="stylesheet" href="css/style.css" />
+     <title>Arcade games</title>
+   </head>
+
+   <body style="margin:0;">
+
+     <div style="opacity: 0;" id="loader">
+
+       <div class="chargement">
+         <audio id="AudioLoader" src="sound/loader.mp3"></audio>
+       <audio id="AudioBorne" src="sound/game.mp3"></audio>
+         <img class="imgall" src="img/loader.jpg" alt="Ecran de chargement">
+       </div>
+
+     </div>
+
+     <div style="opacity: 0;" id="myDiv" class="borne">
+       <img class="imgall" src="img/pause.jpg" alt="Menu pause">
+
+       <div style="opacity: 0;" id="SpaceForGame">
+         <img class="SpaceBar" src="img/space.jpg" alt="Appuyez sur espace pour jouer">
+       </div>
+
+      </div>
+     <div style="opacity: 0;" id="Game">
+      <iframe src="https://scratch.mit.edu/projects/331729340/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen id="Game"></iframe>
+     </div>
+
+   </body>
+
+
+     <script>
+
+      window.onload = () => {
+
+        document.body.style.backgroundColor = 'rgb(0,0,0)';
+		document.getElementById('AudioBorne').play();
+    
+
+        setTimeout( () => { document.getElementById('AudioLoader').play();
+        }, 500);
+
+        setTimeout( () => { document.getElementById("loader").style.opacity = 1;
+        }, 1000);
+
+
+        setTimeout( () => { document.getElementById("loader").style.opacity = 0;
+        }, 4000);
+
+        setTimeout( () => { document.getElementById("loader").style.display = "none";
+        document.getElementById("SpaceForGame").style.display = "block";
+        }, 4550);
+
+        setTimeout( () => { document.getElementById("myDiv").style.opacity = 1;
+        }, 4500);
+      }
+
+           window.onkeypress = function( event ) {
+
+           if ( event.which == 32 || document.getElementById("Game").style.opacity != 0) {
+
+             document.getElementById("SpaceForGame").style.display = 'none';
+             document.getElementById("Game").style.opacity = 1;
+             document.getElementById('AudioBorne').pause();
+
+           }
+         }
+
+    </script>
+
+</html>
