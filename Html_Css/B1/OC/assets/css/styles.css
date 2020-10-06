@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h2 {
+    color: brown;
+}
+
+.pp {
+    width: 10%;
+    float: right;
+    border-radius: 50%;
+    border: solid 2px;
+    box-shadow: 2px;
+}
+
+.lisere {
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 50px;
+    float: left;
+    border: solid 2px;
+    box-shadow: 2px;
+}

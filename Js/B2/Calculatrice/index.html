@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 class="column">Laissez vous séduire par cette Calculatrice <br> simple et innovante</h1>
+        <div id="calculator" class="column">
+            <div id="header">
+                <input type="text" id="number" value="0" autocomplete="off" disabled />
+                <div class="buttons" onclick="retour()">DEL</div>
+            </div>
+            <div id="body">
+                <div class="buttons" onclick="getNumber(7)">7</div>
+                <div class="buttons" onclick="getNumber(9)">9</div>
+                <div class="buttons" onclick="getNumber(8)">8</div>
+                <div class="buttons" onclick="divise()">/</div>
+                <div class="buttons" onclick="getNumber(4)">4</div>
+                <div class="buttons" onclick="getNumber(5)">5</div>
+                <div class="buttons" onclick="getNumber(6)">6</div>
+                <div class="buttons" onclick="multiplier()">*</div>
+                <div class="buttons" onclick="getNumber(1)">1</div>
+                <div class="buttons" onclick="getNumber(2)">2</div>
+                <div class="buttons" onclick="getNumber(3)">3</div>
+                <div class="buttons" onclick="soustraction()">-</div>
+                <div class="buttons" onclick="getNumber(0)">0</div>
+                <div class="buttons" onclick="point()">.</div>
+                <div class="buttons" onclick="egal()">=</div>
+                <div class="buttons" onclick="addition()">+</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
