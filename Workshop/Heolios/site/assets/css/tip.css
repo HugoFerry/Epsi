@@ -1,0 +1,116 @@
+:root,
+html {
+    --font: "Varela Round";
+    font-size: 10px;
+    font-family: var(--font);
+    --text-fix: #ececec;
+}
+
+.light {
+    --bg1: #ebf5fc;
+    --bg2: #22D385;
+    --bg3: #5FC3E8;
+    --text1: #23232e;
+    --text2: #141418;
+    --bg-header: linear-gradient(to right, var(--bg1), var(--bg2))
+}
+
+.dark {
+    --bg1: #23232e;
+    --bg2: #141418;
+    --bg3: #e44c65;
+    --text1: #b6b6b6;
+    --text2: #ececec;
+    --bg-header: linear-gradient(to right, var(--bg1), var(--bg2))
+}
+  
+  .cadre{
+      width: 600px;
+      color: var(--text1);
+      height: 300px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      border-radius: 50px;
+
+  }
+  .diaporama {
+      width: 400%;
+      height: 100%;
+      position: relative;  
+      margin: 0; 
+      padding: 0;
+  
+  }
+  .diaporama li{
+      list-style: none;
+      height: 100%;
+      width: 100% !important;
+      position: absolute;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: var(--text1);
+  }
+  .diaporama li span{
+    color: var(--text1);
+    font-size: 30px;
+  
+  }
+  .diaporama li div{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .diaporama li div .text{
+    margin-left: 20px;
+    font-size: 15px;
+
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  .diaporama li:nth-child(1){
+      left: 0;
+  }
+  .diaporama li:nth-child(2){
+  
+      left: 600px;
+  }
+  .diaporama li:nth-child(3){
+
+      left: 1200px;
+  }
+  .diaporama li:nth-child(4){
+  
+      left: 1800px;
+  }
+  
+  .diaporama {
+      animation: slide 30s ease infinite 0s;
+      width: 400%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+    }
+    @keyframes slide {
+      0%, 14.81%, 100% {
+        transform: translate(0,0);
+      }
+      25.93%, 40.74% {
+        transform: translate(-100%,0);
+      }
+      51.85%, 66.67% {
+        transform: translate(-200%,0);
+      }
+      77.78%, 92.59% {
+        transform: translate(-300%,0);
+      }
+    }
