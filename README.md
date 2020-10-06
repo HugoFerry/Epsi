@@ -2,7 +2,7 @@
 
 Bien le bonjour, cher visiteur !
 
-Vous êtes actuellement sur mon répertoire où je poste tous les projets et les exercices que j'effectue à mon école (EPSI Bordeaux) ou chez moi. 
+Vous êtes actuellement sur mon répertoire où je poste tous les projets et les exercices que j'effectue à mon école (EPSI Bordeaux). 
 
 Le workshop/Heolios a été classé premier du campus EPSI Bordeaux et deuxième national 
 
