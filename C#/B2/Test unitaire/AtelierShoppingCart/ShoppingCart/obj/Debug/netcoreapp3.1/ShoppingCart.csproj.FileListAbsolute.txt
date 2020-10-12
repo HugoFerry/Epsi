@@ -1,0 +1,9 @@
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.deps.json
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.pdb
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.csprojAssemblyReference.cache
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.AssemblyInfoInputs.cache
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.AssemblyInfo.cs
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.csproj.CoreCompileInputs.cache
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.dll
+F:\Cours\EPSI\B2\C#\Test_Unitaire\AtelierShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.pdb
